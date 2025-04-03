@@ -1,0 +1,63 @@
+/*Color variables*/
+
+:root{
+    --RebeccaPurple: #6b3b91;
+    --Wisteria: #BF96E0;
+    --Thistle: #d8cbe4;
+    --Olivine: #8eab73;
+    --FernGreen: #586d45;
+    --Background: #897999;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "TextMain";
+    src: url(/fonts/MedievalSharp-Regular.ttf);
+}
+
+h1{
+    font-size: 5rem;
+    background: #D8CBE4;
+    background: linear-gradient(to top, #D8CBE4 2%, #6B3B91 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+}
+
+h2{
+    font-size: 4rem;
+    background: #D8CBE4;
+    background: linear-gradient(to top, #D8CBE4 2%,);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+}
+h3{
+    font-size: 2rem;
+    background: #D8CBE4;
+    background: linear-gradient(to top, #D8CBE4 2%,);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+}
+
+body{
+    display: block;
+    background-color: var(--Background);
+    font-family: "TextMain";
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    background-image: url(/images/Crystal-cave-DONE.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: visible;
+}
+
+main{
+    display: block;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}

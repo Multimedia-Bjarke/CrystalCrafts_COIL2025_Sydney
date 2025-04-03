@@ -1,0 +1,71 @@
+/*Color variables*/
+
+:root{
+    --RebeccaPurple: #6b3b91;
+    --Wisteria: #BF96E0;
+    --Thistle: #d8cbe4;
+    --Olivine: #8eab73;
+    --FernGreen: #586d45;
+    --Background: #897999;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "TextMain";
+    src: url(/fonts/MedievalSharp-Regular.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+/*Title*/
+#sectionTitle{
+display: block;
+position: relative;
+margin-top: 4rem;
+}
+
+#rulestitle{
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+    font-size: 3rem;
+    margin-top: -50px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 40px;
+    background: url('../images/Stars.png') no-repeat left center;
+    background-size: 30px 30px;
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#button_start{
+    display: flex;
+    justify-content: center;
+}
+
+#knap{
+    color: var(--Olivine);
+    font-family: "TextMain";
+    background-color: var(--FernGreen);
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+#knap:hover {
+    box-shadow: 0px 0px 10px 5px rgb(255, 234, 189);
+}

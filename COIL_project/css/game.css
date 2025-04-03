@@ -1,0 +1,78 @@
+/*Color variables*/
+
+:root{
+    --RebeccaPurple: #6b3b91;
+    --Wisteria: #BF96E0;
+    --Thistle: #d8cbe4;
+    --Olivine: #8eab73;
+    --FernGreen: #586d45;
+    --Background: #897999;
+}
+
+
+/*Fonts*/
+@font-face {
+    font-family: "TextMain";
+    src: url(/fonts/MedievalSharp-Regular.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*Link back to rules*/
+
+header{
+    display: flex;
+    justify-content: right;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+#linkRules a{
+    color: var(--Thistle);
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#linkRules a:hover{
+ color: #ffeabd;
+}
+
+#sectionTitle{
+    display: flex;
+    margin-top: -8rem;
+}
+
+/*Section - Cards*/
+#sectionCards{
+    position: relative;
+    margin-top: -3rem;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+}
+.show{
+    transform: translate(-50%, -50%) scale(0);
+}
+.card {
+    position: absolute; 
+    margin-top: 15rem;
+    left: 50%; 
+    transform: translate(-50%, -50%)scale(1); 
+    transition: transform 1s ease-out; 
+}
+
+#button{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 38%;
+    padding: 20px 50px;
+    font-family: "Textmain";
+    font-size: 45px;
+    color: #8eab73;
+    background-color: #586d45;
+    border-radius: 15px;
+    border: none;
+}
+#button:hover{
+        box-shadow: 0px 0px 10px 5px #ffeabd;
+    }
