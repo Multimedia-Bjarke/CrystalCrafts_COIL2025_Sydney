@@ -29,6 +29,7 @@ html, body {
 display: block;
 position: relative;
 margin-top: 4rem;
+
 }
 
 #rulestitle{
@@ -68,4 +69,9 @@ ul li {
 
 #knap:hover {
     box-shadow: 0px 0px 10px 5px rgb(255, 234, 189);
+}
+
+#sectionRules{
+    margin-right: 2rem;
+
 }

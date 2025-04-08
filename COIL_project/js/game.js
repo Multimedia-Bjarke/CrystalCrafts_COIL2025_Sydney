@@ -1,7 +1,22 @@
 // Array of card objects, each containing an image URL
 const cards = [
-    { url: "./images/Kort-1.png" }, // Adjusted path to use "./" (relative to game.html)
-    { url: "./images/Kort-2.png" }
+    { url: "./images/Card1.png" }, // Adjusted path to use "./" (relative to game.html)
+    { url: "./images/Card2.png" },
+    { url: "./images/Card3.png" },
+    { url: "./images/Card4.png" },
+    { url: "./images/Card5.png" },
+    { url: "./images/Card6.png" },
+    { url: "./images/Card7.png" },
+    { url: "./images/Card8.png" },
+    { url: "./images/Card9.png" },
+    { url: "./images/Card10.png" },
+    { url: "./images/Card11.png" },
+    { url: "./images/Card12.png" },
+    { url: "./images/Card13.png" },
+    { url: "./images/Card14.png" },
+    { url: "./images/Card15.png" },
+    { url: "./images/Card16.png" }
+
 ];
 
 // Select the button and card container from the HTML
